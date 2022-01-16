@@ -30,4 +30,4 @@ jobs:
         run: |
           git config --local user.name "$GITHUB_ACTOR"
           git config --local user.email "$GITHUB_ACTOR@users.noreply.github.com"
-          Rscript -e "pkg <- pkgbuild::build('RcppMeCab', binary = TRUE, quiet = TRUE); drat::insertPackage(pkg, repodir = 'docs', commit = TRUE, location = 'main')"
+          Rscript -e "options(dratBranch = 'docs'); pkg <- pkgbuild::build('RcppMeCab', binary = TRUE, quiet = TRUE); drat::insertPackage(pkg, repodir = '.', commit = TRUE)"
