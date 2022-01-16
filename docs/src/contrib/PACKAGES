@@ -6,5 +6,5 @@ Imports: Rcpp, RcppParallel, dplyr (>= 0.8.0), purrr, stringi, rlang
 LinkingTo: Rcpp, RcppParallel, RcppThread, BH
 Suggests: roxygen2, testthat (>= 3.0.0)
 License: GPL
-MD5sum: c2513803d5c3c6fe03131961e4c584ae
+MD5sum: 2aa482f23f19170791957f872cdf5440
 NeedsCompilation: no
