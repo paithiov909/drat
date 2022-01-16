@@ -23,6 +23,9 @@ jobs:
       - uses: r-lib/actions/setup-r-dependencies@v2
         with:
           working-directory: RcppMeCab
+          extra-packages: |
+            any::drat
+            any::pkgbuild
       - name: Insert package
         run: |
           git config --local user.name "$GITHUB_ACTOR"
