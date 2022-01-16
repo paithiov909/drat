@@ -18,7 +18,7 @@ jobs:
         if: ${{ matrix.platform == 'ubuntu-latest' }}
         run: |
           sudo apt install mecab libmecab-dev mecab-ipadic-utf8
-      - name:
+      - name: Insert package
         run: |
           git config --local user.name "$GITHUB_ACTOR"
           git config --local user.email "$GITHUB_ACTOR@users.noreply.github.com"
