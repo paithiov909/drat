@@ -1,0 +1,10 @@
+Package: RcppMeCab
+Version: 0.0.1.3.900
+Depends: R (>= 3.4.0)
+Imports: Rcpp, RcppParallel, dplyr (>= 0.8.0), purrr, stringi, rlang
+        (>= 0.1.2)
+LinkingTo: Rcpp, RcppParallel, RcppThread, BH
+Suggests: roxygen2, testthat (>= 3.0.0)
+License: GPL
+MD5sum: c2513803d5c3c6fe03131961e4c584ae
+NeedsCompilation: no
