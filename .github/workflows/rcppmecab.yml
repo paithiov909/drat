@@ -5,10 +5,10 @@ on: workflow_dispatch
 name: build-rcppmecab
 
 jobs:
-  strategy:
-    matrix:
-      platform: [ubuntu-latest, windows-latest]
   rcppmecab:
+    strategy:
+      matrix:
+        platform: [ubuntu-latest, windows-latest]
     runs-on: ${{ matrix.platform }}
     steps:
       - uses: actions/checkout@v2
