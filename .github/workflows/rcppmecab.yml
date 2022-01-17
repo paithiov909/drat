@@ -25,6 +25,7 @@ jobs:
           working-directory: RcppMeCab
           extra-packages: |
             any::drat
+            any::git2r
             any::pkgbuild
       - name: Insert package
         run: |
