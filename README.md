@@ -6,6 +6,8 @@
 
 RからMeCabを呼ぶためのバイナリパッケージを頒布している[drat](https://github.com/eddelbuettel/drat)リポジトリです。
 
+次のパッケージを頒布しています。MeCabは入っていなくてもパッケージのインストールはできますが、パッケージを使用するにはMeCabの辞書が必要です。
+
 - [paithiov909/RcppMeCab](https://github.com/paithiov909/RcppMeCab)
 - [paithiov909/gibasa](https://github.com/paithiov909/gibasa)
 
