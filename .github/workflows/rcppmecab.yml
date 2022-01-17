@@ -28,6 +28,8 @@ jobs:
             any::git2r
             any::pkgbuild
       - name: Insert package
+        env:
+          GITHUB_ACTOR: ${{ github.actor }}
         run: |
           git config --local user.name "$GITHUB_ACTOR"
           git config --local user.email "$GITHUB_ACTOR@users.noreply.github.com"
