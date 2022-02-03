@@ -1,8 +1,8 @@
-# RcppMeCab-ubuntu
+# RcppMeCab-windows
 
 on: workflow_dispatch
 
-name: build-rcppmecab
+name: build-rcppmecab-windows
 
 jobs:
   rcppmecab:

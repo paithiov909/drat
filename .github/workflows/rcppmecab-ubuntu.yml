@@ -2,7 +2,7 @@
 
 on: workflow_dispatch
 
-name: build-rcppmecab
+name: build-rcppmecab-ubuntu
 
 jobs:
   rcppmecab:

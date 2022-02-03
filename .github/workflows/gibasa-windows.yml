@@ -2,7 +2,7 @@
 
 on: workflow_dispatch
 
-name: build-gibasa
+name: build-gibasa-windows
 
 jobs:
   rcppmecab:
