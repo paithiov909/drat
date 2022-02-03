@@ -1,4 +1,4 @@
-# gibasa
+# gibasa-windows
 
 on: workflow_dispatch
 
@@ -8,7 +8,7 @@ jobs:
   rcppmecab:
     strategy:
       matrix:
-        platform: [ubuntu-latest, windows-latest]
+        platform: [windows-latest]
     runs-on: ${{ matrix.platform }}
     steps:
       - uses: actions/checkout@v2
