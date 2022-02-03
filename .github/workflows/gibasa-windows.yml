@@ -34,7 +34,6 @@ jobs:
           git config --local user.name "$GITHUB_ACTOR"
           git config --local user.email "$GITHUB_ACTOR@users.noreply.github.com"
           Rscript -e "options(dratBranch = 'docs'); pkg <- pkgbuild::build('gibasa', dest_path = tempdir(), binary = TRUE, quiet = TRUE); drat::insertPackage(pkg, repodir = '.', commit = TRUE)"
-          Rscript -e "options(dratBranch = 'docs'); pkg <- pkgbuild::build('gibasa', dest_path = tempdir(), binary = FALSE, quiet = TRUE); drat::insertPackage(pkg, repodir = '.', commit = TRUE)"
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
         env:
