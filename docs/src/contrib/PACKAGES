@@ -22,10 +22,10 @@ NeedsCompilation: no
 Package: RcppMeCab
 Version: 0.0.1.3.900
 Depends: R (>= 3.4.0)
-Imports: Rcpp, RcppParallel, dplyr (>= 0.8.0), purrr, stringi, rlang
-        (>= 0.1.2)
-LinkingTo: Rcpp, RcppParallel, BH
+Imports: audubon, dplyr (>= 0.8.0), purrr, Rcpp, RcppParallel, rlang
+        (>= 0.1.2), stringi
+LinkingTo: BH, Rcpp, RcppParallel
 Suggests: roxygen2, testthat (>= 3.0.0)
 License: GPL
-MD5sum: a68767ac47a84c818e350ea10297b6e3
+MD5sum: 2ffbbd8eafa23dcbf2fe3694c87ed91e
 NeedsCompilation: yes
