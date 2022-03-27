@@ -8,7 +8,7 @@ License: GPL (>= 3)
 Archs: i386, x64
 
 Package: RcppMeCab
-Version: 0.0.1.3.900
+Version: 0.0.1.3.9000
 Depends: R (>= 3.4.0)
 Imports: audubon, dplyr (>= 0.8.0), purrr, Rcpp, RcppParallel, rlang
         (>= 0.1.2), stringi
