@@ -1,3 +1,13 @@
+Package: gibasa
+Version: 0.1.3
+Imports: audubon, dplyr, purrr, quanteda, Rcpp, RcppParallel, rlang (>=
+        0.4.11), stringi, tidyr
+LinkingTo: BH, Rcpp, RcppParallel
+Suggests: devtools, knitr, markdown, rmarkdown, roxygen2
+License: GPL (>= 3)
+MD5sum: 7ffdb18e15c4741e25b3c49de6398285
+NeedsCompilation: yes
+
 Package: RcppMeCab
 Version: 0.0.1.3.9000
 Depends: R (>= 3.4.0)
