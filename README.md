@@ -9,14 +9,12 @@ RからMeCabを呼ぶためのバイナリパッケージを頒布している[d
 次のパッケージを頒布しています。MeCabは入っていなくてもパッケージのインストールはできますが、パッケージを使用するにはMeCabの辞書が必要です。
 
 - [paithiov909/RcppMeCab](https://github.com/paithiov909/RcppMeCab)
-- [paithiov909/gibasa](https://github.com/paithiov909/gibasa)
 
 ## 使い方
 
 ```r
 drat::addRepo("paithiov909")
 install.packages("RcppMeCab")
-install.packages("gibasa")
 # or
 update.packages()
 ```
